@@ -8,6 +8,7 @@ const cmd = new Command()
   .help({ colors: Deno.stdout.isTerminal() })
   .action(() => cmd.showHelp());
 
+cmd.command("blobs", cmds.blobsCmd);
 cmd.command("clone", cmds.cloneCmd);
 cmd.command("push", cmds.pushCmd);
 cmd.command("pull", cmds.pullCmd);
