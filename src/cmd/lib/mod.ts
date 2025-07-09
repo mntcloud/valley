@@ -12,3 +12,4 @@ export { statusCmd } from "./status.ts";
 export { watchCmd } from "./watch.ts";
 export { configCmd } from "./config.ts";
 export { blobsCmd} from "./blobs.ts";
+export { sqlCmd } from "./sql.ts";
